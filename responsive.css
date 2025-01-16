@@ -1,0 +1,243 @@
+
+/* Mobile Styles */
+@media (max-width: 768px) {
+
+    /* Navbar */
+
+/*         
+    .navbar {    
+        width: 90%;
+        margin-left: 5%;
+        top: 0; 
+    } */
+
+    section {
+        padding-top: 150px; /* Add some extra padding if needed */
+        box-shadow: 0 0 15px rgba(124, 0, 115, 0.983);
+    }
+
+    .navbar nav {
+        /* width: 100%; Ensure full width on small screens */
+        padding: 10px 15px;
+    }
+
+    .navbar nav ul {
+        display: none; /* Hide menu items on mobile */
+        flex-direction: column;
+        position: absolute;
+        top: 70px;
+        justify-content: end;
+        line-height: 0px;
+        left: 0;
+        width: 100%;
+        background-color: rgba(255, 255, 255, 0.95);
+        backdrop-filter: blur(5px);
+        /* padding: 20px 0; */
+    }
+
+    .navbar nav ul.active {
+        font-size: 20px;
+        display: flex; /* Show the menu when active */
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    .navbar nav ul li {
+        margin: 15px 0;
+        text-align: center;
+    }
+
+    .navbar nav ul li a {
+        padding: 10px;
+    }
+
+    /* Show hamburger icon */
+    .hamburger {
+        display: flex;
+        float: right;
+    }
+
+    /* Adjust logo for mobile screens */
+    .navbar .logo {
+        flex: 1;
+        justify-content: flex-start;
+    }
+
+    .navbar h1 {
+        font-size: 1.8rem; /* Reduce logo text size on small screens */
+    }
+
+    .navbar h1 {
+        font-size: 25px;
+    }
+
+
+    /* Header */
+
+    .header-content {
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: space-between;
+        width: 100%;
+        padding: 10px;
+    }
+
+    .text-content {
+        margin-top: 20px;
+        width: 100%;
+        text-align: justify;
+    }
+
+    .text-content h1 {
+        font-size: 20px;
+    }
+
+    .text-content .highlight {
+        font-size: 25px;
+        color: #008015;
+        font-weight: 1000;
+    }
+
+    .text-content p, .text-content h1 {
+        margin: 15px;
+        line-height: 36px;
+    }
+
+    .carousel {
+        width: 100%;
+    }
+
+
+    /* About */
+    /* .section-title {
+        font-size: 2rem;
+    }
+
+    .about-content p {
+        font-size: 0.95rem;
+    }
+
+    .about-content h3 {
+        font-size: 1.8rem;
+    }
+
+    .about-content ul li {
+        font-size: 1rem;
+    } */
+
+
+    .abt-img img{
+        width: 300px;
+    }
+
+    .abt-img {
+        width: 100%;
+    }
+
+
+    .abt-us1 {
+        margin-top: 20px;
+        width: 100%;
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+        justify-content: center;
+    }
+    .abt-us2 {
+        margin-top: 20px;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+/* 
+    .section-title {
+        font-size: 2.5rem;
+        margin-bottom: 30px;
+    } */
+
+    .abt-cont, .abt-cont p {
+        width: 100%;
+        color: #555;
+        line-height: 2.2;
+        padding: 10px;
+    }
+
+    .abt-cont li {
+        margin-left: 15px;
+    }
+
+    /* Core Services List */
+    .about-content ul {
+        list-style: "🔨  ";
+        padding: 0;
+        margin: 20px 0;
+        text-align: left;
+        padding-left: 20px;
+    }
+
+    .about-content ul li {
+        font-size: 1.1rem;
+        color: #555;
+        line-height: 1.8;
+        margin-bottom: 10px;
+    }
+
+    /* Why Choose Us List */
+    .about-content h3 + ul {
+        margin-top: 30px;
+    }
+
+    .about-content ul li {
+        font-size: 1rem;
+        color: #555;
+        margin-bottom: 12px;
+        line-height: 1.6;
+    }
+
+    /* Services */
+
+    .card-container {
+        padding: 0;
+    }
+    
+    .services {
+        padding: 150px 20px 20px;
+        /* background-color: #f9f9f9;
+        text-align: center; */
+    }
+    
+    /* Contact */
+    
+    .contact-us {
+        padding: 150px 20px 60px;
+    }
+
+
+    /* Footer */
+
+    .footer {
+        height: 350px;
+    }
+
+    .footer-content {
+        flex-direction: column;
+        align-items: center;
+        line-height: 20px;
+    }
+    
+    .footer-links {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    .footer-links ul li {
+        padding: 1%;
+        width: 80px;
+        
+    }
+    
+   
+}
